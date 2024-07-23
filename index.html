@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>International Conference on Algorithms in Advanced Artificial Intelligence</title>	
+
+		<meta name="keywords" content="WebSite Template" />
+		<meta name="description" content="Porto - Multipurpose Website Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Favicon -->
+		<!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> -->
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+		<!-- Web Fonts  -->
+		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+		<link rel="stylesheet" href="vendor/animate/animate.compat.css">
+		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+
+		<!-- Revolution Slider CSS -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+
+		<!-- Demo CSS -->
+		<link rel="stylesheet" href="css/demos/demo-event.css">
+
+		<!-- Skin CSS -->
+		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-event.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+
+		
+		 				border-radius: 5px;
+			
+		<style>
+			.button-container {
+				display: flex;
+				justify-content: center;
+				gap: 20px; /* space between buttons */
+				margin-top: 50px; /* Added some space at the top */
+			}
+			.button {
+				background-color: #4CAF50; /* Green */
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				cursor: pointer;
+				border-radius: 12px;
+				transition: background-color 0.3s;
+			}
+			.button:hover {
+				background-color: #45a049;
+			}
+			.content {
+				display: none;
+				margin-top: 20px;
+				text-align: left;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+			}
+			.content ul {
+				list-style-type: none;
+				padding: 0;
+			}
+			.content li {
+				background: #e0e0e0;
+				margin: 5px 0;
+				padding: 10px;
+				border-radius: 5px;
+			}
+
+			/* review button */
+			.center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; /* Adjust as needed */
+    }
+
+    .review-button {
+        background-color: #4CAF50; /* Green background */
+        border: none; /* Remove borders */
+        color: white; /* White text */
+        padding: 15px 32px; /* Some padding */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Get it to display inline */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Add a pointer cursor on hover */
+        border-radius: 12px; /* Rounded corners */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Add shadow */
+        transition-duration: 0.4s; /* Add transition effect */
+    }
+
+    .review-button:hover {
+        background-color: #45a049; /* Darker green background on hover */
+    }
+
+	/* gallery */
+	body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-item {
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(33.333% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: calc(50% - 10px);
+    }
+}
+
+/* book */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.image-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-container h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content-container p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .image-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-container {
+        padding: 10px;
+    }
+}
+
+/* price card */
+.pricing-card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .pricing-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .pricing-card:hover {
+            transform: translateY(-10px);
+        }
+        .pricing-card .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .pricing-card .price {
+            font-size: 48px;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+        .pricing-card .currency {
+            font-size: 24px;
+            vertical-align: top;
+        }
+        .pricing-card .features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+        .pricing-card .features li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .pricing-card .cta-button {
+            background: #ff6b6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .pricing-card .cta-button:hover {
+            background: #ff4a4a;
+        }
+
+
+
+			</style>
+	
+
+		
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
+		
+
+	</head>
+
+	<body data-plugin-scroll-spy data-plugin-options="{'target': '#header'}">
+
+		<div class="body">
+
+			<header
+        id="header"
+        class="header-effect-shrink"
+        data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}"
+      >
+        <div class="header-body border-top-0 bg-quaternary box-shadow-none">
+          <div class="header-container container">
+            <div class="header-row">
+              <div class="header-column">
+                <div class="header-row">
+                  <div class="header-logo">
+                    <a href="icaai.html">
+                      <img
+                        src="img/srkr.png"
+                        class="img-fluid"
+                        width="128"
+                        height="34"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="header-column justify-content-end">
+                <div class="header-row">
+                  <div
+                    class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text"
+                  >
+                    <div
+                      class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1"
+                    >
+                      <nav class="collapse">
+                        <ul class="nav nav-pills" id="mainNav">
+                          <li>
+                            <a
+                              class="nav-link font-weight-semibold"
+                              data-hash
+                              href="#main"
+                            >
+                              HOME
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="nav-link font-weight-semibold"
+                              data-hash
+                              href="#about"
+                            >
+                              ABOUT
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="nav-link font-weight-semibold"
+                              data-hash
+                              data-hash-offset="0"
+                              data-hash-offset-lg="70"
+                              href="#chiefguests"
+                            >
+                               CHEIF GUESTS
+                            </a>
+                          </li>
+						  <li>
+                            <a
+                              class="nav-link font-weight-semibold"
+                              data-hash
+                              data-hash-offset="0"
+                              data-hash-offset-lg="70"
+                              href="#speakers"
+                            >
+                               SPEAKERS
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="nav-link font-weight-semibold"
+                              data-hash
+                              data-hash-offset="0"
+                              data-hash-offset-lg="70"
+                              href="#schedule"
+                            >
+							SCHEDULE
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a
+                              class="nav-link font-weight-semibold"
+                              data-hash
+                              data-hash-offset="0"
+                              data-hash-offset-lg="70"
+                              href="#venue"
+                            >
+                              LOCATION
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="nav-link font-weight-semibold"
+                              data-hash
+                              data-hash-offset="0"
+                              data-hash-offset-lg="70"
+                              href="#contact"
+                            >
+                              CONTACT
+                            </a>
+                          </li>
+                          
+                        </ul>
+                      </nav>
+                    </div>
+                    <button
+                      class="btn header-btn-collapse-nav"
+                      data-bs-toggle="collapse"
+                      data-bs-target=".header-nav-main nav"
+                    >
+                      <i class="fas fa-bars"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+			<div role="main" class="main">
+
+				<div 
+				class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0"
+				data-plugin-options="{'autoplayTimeout': 7000}"
+				data-dynamic-height="['670px','670px','670px','550px','500px']"
+				style="height: 670px"
+			  >
+				<div class="owl-stage-outer">
+				  <div class="owl-stage">
+					<!-- Carousel Slide 1 -->
+					<div
+					  class="owl-item position-relative"
+					  style="
+						background-image: url(img/slide-3.png);
+						background-color: #2e3136;
+						background-size: cover;
+						background-position: center;
+					  "
+					>                
+					</div>
+	  
+					<!-- Carousel Slide 2 (Same as Slide 1) -->
+					<div
+					  class="owl-item position-relative"
+					  style="
+						background-image: url(img/slide-2.png);
+						background-color: #2e3136;
+						background-size: cover;
+						background-position: center;
+					  "
+					></div>
+	  
+					
+				  </div>
+				</div>
+				<div class="owl-nav">
+				  <button
+					type="button"
+					role="presentation"
+					class="owl-prev"
+					aria-label="Previous"
+				  ></button>
+				  <button
+					type="button"
+					role="presentation"
+					class="owl-next"
+					aria-label="Next"
+				  ></button>
+				</div>
+				<div class="owl-dots mb-8">
+				  <button role="button" class="owl-dot active"><span></span></button>
+				  <button role="button" class="owl-dot"><span></span></button>                        
+				</div>
+			  </div>
+
+			  <section id="about" class="border-0 bg-transparent pt-5">
+				<div class="container py-3">
+				  <div class="row">
+					<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+					  <h2>ICAAAI</h2>
+					  <h3>About</h3>
+					</div>
+					<br><br>
+					<div class="tabs tabs-bottom tabs-center tabs-simple">
+					  <ul class="nav nav-tabs">
+						<li class="nav-item">
+						  <a class="nav-link active" href="#tabsNavigationSimple1" data-bs-toggle="tab">About College</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#tabsNavigationSimple2" data-bs-toggle="tab">About Department CSE</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#tabsNavigationSimple3" data-bs-toggle="tab">About Conference</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#tabsNavigationSimple4" data-bs-toggle="tab">Publication and Ethics Statement</a>
+						</li>
+					  </ul>
+					  <div class="tab-content">
+						<div class="tab-pane active" id="tabsNavigationSimple1">
+						  <div class="text-center">
+							<h4>SRKR</h4>
+							<p class="text-justify"><strong>Sagi Rama Krishnam Raju Engineering College, 
+							  established in 1980, is one of the earliest self financing Engineering Colleges in the state of Andhra 
+							  Pradesh. Established with a noble cause to empower 
+							  rural students through technical education, the 
+							  institution today has evolved as one of the 
+							  pioneering technical institutions in the country. 
+							  Spreading over 30 acres of green land, the institution 
+							  has set up state-of-the-art facilities for science and 
+							  technology and created a conducive environment 
+							  for an inclusive and culturally responsive teaching learning process. Alongside education and research, 
+							  it established a history of work ethos that supports 
+							  students in developing a creative, confident and 
+							  logical approach to nation building, making them 
+							  highly valued graduates and opening doors to a wide 
+							  range of exciting careers.</strong></p>
+						  </div>
+						</div>
+						<div class="tab-pane" id="tabsNavigationSimple2">
+						  <div class="text-center">
+							<h4>About Department CSE</h4>
+							<p class="text-justify"><strong>Department of Computer Science and Engineering 
+							  was established in the year 1991 with B.Tech. (CSE) 
+							  program and with an intake of 40. It has grown 
+							  rapidly over the last three decades with intake 
+							  increased to 300 by 2021. M.Tech.(CST) in the year 
+							  2006 with an intake of 18 and increased to 36 by the 
+							  year 2011. Jawaharlal Nehru Technological 
+							  University Kakinada (JNTUK) recognized the 
+							  department as a research centre in 2019.
+							  The department has all the necessary infrastructure, 
+							  and highly qualified and experienced faculty for a 
+							  better teaching learning experience to students. The 
+							  department has well equipped 11 laboratories, 3 
+							  research labs, 2 seminar halls, 4 e-class rooms, and 
+							  15 classrooms. The strength of the department is the 
+							  faculty with a total of 62 out of which 13 are 
+							  doctorates, 4 have submitted their thesis, 4 are 
+							  about to complete their Ph.D., 30 have registered for 
+							  Ph.D., and the remaining with M.Tech Qualification.</strong></p>
+						  </div>
+						</div>
+						<div class="tab-pane" id="tabsNavigationSimple3">
+						  <div class="text-center">
+							<h4>ICAAAI Conference</h4>
+							<p class="text-justify"><strong>Intelligence is fundamental to our understanding of 
+							  how we think or how a small bit of matter can perceive, 
+							  foresee, and control a cosmos that is much larger and 
+							  more complicated than it. In addition to attempting to 
+							  understand intelligent beings, the study of artificial 
+							  intelligence (AI) strives to produce intelligent beings. 
+							  Today, the phrase "artificial intelligence" is used to 
+							  describe a broad range of subfields, from learning and 
+							  perception to the more specific ones, such as playing 
+							  chess, proving mathematical theorems, writing poetry, 
+							  operating automobiles in congested streets, typical 
+							  financial decisions in government and personal 
+							  organization, and diagnosing diseases. AI is useful for 
+							  any intellectual task, making it a truly international 
+							  field. It uses four separate strategies Thinking 
+							  Humanly, Thinking Rationally, Acting Humanly, and 
+							  Acting Rationally, each employing a unique set of 
+							  methods. A human-centred strategy must include 
+							  components of empirical research, such as 
+							  observations and theories of human behaviour. In a 
+							  rationalist approach, engineering and mathematics are 
+							  merged. Even while research on next-generation AI 
+							  and the path to human-level intelligence is more 
+							  advanced, they have received less attention to date, 
+							  showing that additional research is needed to fully 
+							  understand its potential implications. Authors should 
+							  be morally upright, careful, and forward thinking when 
+							  employing technology even though it is inevitable, 
+							  especially in the case of highly developed artificial 
+							  intelligence through algorithms in the international 
+							  conference.</strong></p>
+						  </div>
+						</div>
+						<div class="tab-pane" id="tabsNavigationSimple4">
+						  <div class="text-center">
+							<h4>About Publication and Ethics Statement</h4>
+							<p class="text-justify"><strong>International Conference on Algorithms in
+							  Advanced Artificial Intelligence (ICAAAI-2023), which was organized December 22
+							  to 24, 2023. All the participants of presented papers published in Taylor & Francis.
+							  The Conference proceedings cover a range of publication types, some of which are
+							  treated book publications, and others the same. This conference proceeding published
+							  the standalone books, book series or collections of summaries or abstracts shown in
+							  Google and Amazon. About the Proceedings for conference namely as ICAAAI-2023,
+							  we meet virtually to conduct a comprehensive be meet through Taylor and Francis
+							  members. Conference proceedings are a record of a conference, or other similar
+							  academic meeting, often including abstracts, reports of papers or full text papers
+							  submitted by the participants and presented in a diversity of form such as book, or
+							  standalone publication provide to Taylor & Francis.<br>
+							  <u>CONFERENCE PROCEEDINGS ARE USUALLY INTENDED TO:</u><br>
+							  • This allows researchers to engage with current research before publication or
+							  dissemination, typically including findings, experiments, theory, best practices, or
+							  new methodologies.<br>
+							  • Research Proceedings provide a less formal setting for researchers to present their
+							  work, which is often reflected in the format of their proceeding’s publications.<br>
+							  • This allows researchers to introduce new concepts and methodologies in areas where
+							  they are still in the process of development.<br>
+							  • This service aids new researchers in establishing connections with existing
+							  researchers, research teams, or institutions focusing on Algorithms in Advanced
+							  Artificial Intelligence topics.<br>
+							  <u>KEY DIFFERENCES BETWEEN CONFERENCE PROCEEDINGS AND BOOK:</u> This ICAAAI-2023 Conference
+							  proceedings differ from books in terms of form and conventions, including aspects like participant
+							  dissemination or abstract content about Artificial Intelligence. The discussion on ICAAAI-2023
+							  conference proceedings is governed by the following principles:<br>
+							  • The ICAAAI-2023 Conference proceeding should be considered to the scholarly record.<br>
+							  • Organized Through ICAAAI-2023 planning group, a program committee in editors or
+							  proceedings.<br>
+							  • Only closely examined proceedings that have undergone screening and/or double blinded peer
+							  review are included in the list.<br>
+							  • Double blind peer review along with 10 % plagiarism ratio.</strong></p>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+
+		<section id="pricecard" class="border-0 bg-transparent pt-5"> 
+			  <div class="pricing-card-container">
+				<div class="pricing-card">
+					<div class="title">Registration Fee</div>
+					<div class="price">
+						<span class="currency">Rs.</span>800/-
+					</div>
+					
+					<button class="cta-button" onclick="openLink()">Register Now</button>
+				</div>
+			</div>
+		</section>
+
+				<section id="chiefguests" class="border-0 bg-transparent py-5">
+					<div class="container py-3">
+						<div class="row">
+							<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<h2></h2>
+								<h3>Our Chief Guests</h3>
+							</div>
+						</div>
+						<div class="row pt-4">
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-1" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/demos/event/team/team-3.png" class="img-fluid mb-2" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">Dr.Sourangshu Bhattacharya</h4>
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+								
+
+								<!-- Speaker Lightbox 1 -->
+								<div id="speaker-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/demos/event/team/team-3.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8">
+											<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">Dr.Sourangshu Bhattacharya</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+											<p>Assistant Professor at Indian Institute of Technology, Kharagpur
+												Talks about #trustedai, #machinelearning, and #machinelearningalgorithmsTalks about hashtag trustedai, hashtag machinelearning, and hashtag machinelearningalgorithms
+												
+												Indian Institute of Technology, Kharagpur
+												
+												Indian Institute of Science (IISc)
+												Midnapore Sadar, West Bengal, India </p>	
+											
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-2" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/demos/event/team/team-4.png" class="img-fluid mb-2" alt="" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">Tien Anh Tran</h4>
+								</h4>
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+								
+
+								<!-- Speaker Lightbox 2 -->
+								<div id="speaker-content-2" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/demos/event/team/team-4.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8">
+											<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">Tien Anh Tran
+											</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+											<p>Research Fellow at Seoul National University, South Korea & Assistant Professor at Vietnam Maritime University, Vietnam & Honorary Professor at Lovely Professional University and Galgotias University, India</p>	
+												
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-3" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/demos/event/team/cguest-3.png" class="img-fluid mb-2" alt="" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">DR JUDHI PRASETYO FHEA MSC</h4>
+								</h4>
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+								
+
+								<!-- Speaker Lightbox 2 -->
+								<div id="speaker-content-3" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/demos/event/team/cguest-3.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8">
+											<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">DR JUDHI PRASETYO FHEA MSC
+											</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+											<p>Senior Lecturer Computer Engineering and Informatics, Head & Founder, RoboTechX Lab</p>	
+												
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-4" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/demos/event/team/cguest-4.png" class="img-fluid mb-2" alt="" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">Prof. R. B. V. Subramaanyam
+								</h4>
+								</h4>
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+								
+
+								<!-- Speaker Lightbox 4 -->
+								<div id="speaker-content-4" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/demos/event/team/cguest-4.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8">
+											<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">Prof. R. B. V. Subramaanyam
+											</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+											<p>Professor
+												Department of Computer Science And Engineering
+												National Institute of Technology, Warangal - 506004, Telangana, INDIA</p>	
+												
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-5" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/demos/event/team/cguest-5.png" class="img-fluid mb-2" alt="" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">DR.MHM KRISHNA PRASAD
+								</h4>
+								</h4>
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+								
+
+								<!-- Speaker Lightbox 5 -->
+								<div id="speaker-content-5" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/demos/event/team/cguest-5.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8">
+											<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">DR.MHM KRISHNA PRASAD
+											</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3">Chief Guest</h3>
+											<p>Professor
+												Department of Computer Science And Engineering
+												Jawaharlal Nehru Technological University,Kakinada</p>	
+												
+										</div>
+									</div>
+								</div>
+							</div>
+				</section>
+							
+							<img src="img/pic.png" class="img-fluid mb-2" style="width: 100%; height: 30%;" />
+
+						<section id="speakers" class="border-0 bg-transparent py-5">	
+							<div class="row justify-content">
+								<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+									
+									<h3>Speakers</h3>
+								</div>
+							</div>
+							<div class="button-container">
+								<button class="button" onclick="toggleContent('keynoteSpeakers')">Keynote Speakers</button>
+								<button class="button" onclick="toggleContent('editorialBoard')">Editorial Board Members</button>
+								<button class="button" onclick="toggleContent('advisoryPanel')">Advisory Panel</button>
+							</div>
+							<div id="keynoteSpeakers" class="content">
+								<h2>Keynote Speakers</h2>
+								<ul>
+									<li>Dr. Judy Prasetyo, Professor in CSE &amp; Dean R &amp; D, Middlesex
+										University, Dubai.</li>
+									<li>Dr. Tien Anh Tien, Senior Researcher at Seoul National
+										University, Seoul City, South Korea.</li>
+									<li>Dr. Sourangshu Bhattacharya, Associate Professor, Dept of
+										CSE, IIT-Kharagpur.</li>
+									<li>Dr.K. Himabindu, HoD &amp; Sr. Assistant Professor in CSE,
+										National Institute of Technology, Tadepalligudem.</li>
+									<li>Dr. K. Sumitra Srinivas, Associate Professor in CSE,
+										Middlesex University, Dubai.</li>
+									<li>Dr.R.B.V.Subrahmanyam, Professor in CSE, National Institute of
+										Technology, Warangal.</li>
+									<li>Dr. M.H.R.M.Krishna Prasad, Principal &amp; Professor in CSE, Jawaharlal
+										Nehru Technological University, Kakinada.</li>
+								</ul>
+							</div>
+							<div id="editorialBoard" class="content">
+								<h2>Editorial Board</h2>
+								<ul>
+									<li>Dr.Ben Othman Soufiane, University of Sousse, Tunisia. 
+									</li>
+									<li>Dr. K. Himabindu, Assistant Professor & Head in CSE, NIT-AP</li>
+									<li>Dr. P. S. V. S. Sai Prasad, Associate Professor, University of Hyderabad 
+									</li>
+									<li>Prof.(Dr.).Sudhir Kumar Sharma, IITM, Delhi.
+									</li>
+									<li>Dr. Praneetha Sree, Asst. Prof., IIIT, Karnool 
+									</li>
+									<li>Dr. Anil kumar Rangisetti, Asst. Prof., IIIT DM Karnool.
+									</li>
+									<li>Dr. Sumitra Srinivas K, MiddleSex University, Dubai.
+									</li>
+									<li>Dr Surendiran B, National Institute of Technology Puducherry.</li>
+									<li>Dr. K. Himabindu, NIT-AP.
+									</li>
+									<li>Dr. Nagesh Bhattu Sristy, NIT-AP.
+									</li>
+									<li>Dr. P. S. V. S. Sai Prasad, University of Hyderabad.
+									</li>
+									<li>Dr. P. Ushadevi, JNTU, Kakinada.
+									</li>
+									<li>Dr. Philomina Simon, University of Kerala.</li>
+								</ul>
+							</div>
+							<div id="advisoryPanel" class="content">
+								<h2>Advisory Panel</h2>
+								<ul>
+									<li>Dr.Antonino Galletta, Professor, University of Messina, Italy</li>
+									<li>Dr.Amir Masood Rahmani, Professor, National Yunlin University,
+										Taiwan</li>
+									<li>Dr. Alal Eran, Sr.Lecturer, Ben Gourin University of Negev, Israel.</li>
+									<li>Dr. Ozen Ozer, Kirklareli University, Turkey</li>
+									<li>Dr. Hussein El Ghor, Professor, Lebanese University, Lebanese.</li>
+									<li>Dr. Suresh Chintalapati, CEO, Mabgenex, California, USA.</li>
+									<li>Prof. Deepak Khemani, Professor, IIT Madras</li>
+									<li>Dr. Sourangshu, Bhattacharya, Assoc. Professor IIT-Kharagpur.</li>
+									<li>Dr. R.B.V. Subrahmanyam, Professor in CSE, NIT, Warangal</li>
+									<li>Dr. Manju Khari, Professor in SC&SS, JNU, Delhi</li>
+									<li>Dr. M.H.M.Krishna Prasad, Professor in CSE, JNTUK</li>
+									<li>Dr. A.S.N. Chakravarty, Professor in CSE, JNTUK</li>
+								</ul>
+							</div>
+                        </section>
+	
+				 
+				<section id="schedule" class="border-0 bg-transparent pt-4">
+					<div class="container p-5 ">
+						<div class="row justify-content">
+							<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<h2>ICAAAI-2023</h2>
+								<h3>Schedule</h3>
+							</div>
+						</div>
+						<div class="row pt-4 justify-content-center">
+							<div class="col-xl-6">
+								<section class="timeline custom-timeline align-content-center">
+									<div class="timeline-body">
+										<div class="appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="0">
+											<div class="timeline-date bg-primary">
+												<h3 class="text-light font-weight-bold">Important Dates</h3>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark">Oct 30</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Full Paper Submission</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="200">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark">Nov 6</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Notification of Acceptance</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark">Nov 30</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Camera Ready Paper Submission</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="400">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark" style="margin-right:20px;">Dec <br> 22-24</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Conference</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>			
+				</section>
+            
+
+			
+				<section id="sponsors" class="border-0 bg-tertiary py-5">
+					<div class="container py-3">
+						<div class="row">
+							<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<h2>Thanks To Our Sponsors</h2>
+								<h3>Sponsors</h3>
+							</div>
+						</div>
+						<div class="row align-items-center text-center my-3 py-5 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="600">
+							<!-- <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+								<img src="img/logos/ATLANTIS.png" alt class="img-fluid" style="max-width: 90px;" />
+							</div>
+							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+								<img src="img/logos/ATLANTIS.png" alt class="img-fluid" style="max-width: 140px;" />
+							</div> -->
+							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+								<img src="img/logos/serb.png" alt class="img-fluid" style="max-width: 140px;" />
+							</div>
+							<div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
+								<img src="img/logos/tnf.png" alt class="img-fluid" style="max-width: 140px;" />
+							</div>
+							
+						</div>
+					</div>
+				</section>
+
+				<section class="section section-height-4 mt-0 mb-3 border-0 bg-transparent">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-10">
+
+								<div class="owl-carousel owl-theme stage-margin stage-margin-lg nav-style-2 mb-0" data-plugin-options="{'items': 1, 'margin': 100, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 100}">
+									<div class="">
+										<span class="text-color-primary"><b>Call For Papers</b></span>
+										
+										<p class="lead lead-2 mb-0"><b>Algorithms in Advanced Artificial Intelligence in 
+											ICT including but not limited to 
+											<br>* Track-1: Artificial Intelligence, Machine 
+											Learning, Deep Learning.
+											<br>* Track-2: Data Science and Big Data Analytics. 
+											<br>* Track-3: Vision and Machine Vision. 
+											<br>* Track-4: Applications in the Internet of 
+											Things. 
+											<br>* Track-5: Security and Privacy aspects in AI 
+											like Privacy Preserving ML, Federated 
+											Learning, and Cloud Computing. 
+											<br>* Track-6: Blockchain and Digital Twin 
+											Integrated Applications in AI. 
+											 
+											Note: All Presented Papers will be submitted to Scopus 
+											Indexed Journal or UGC Journal or Book Series after 
+											another round of review-selected papers based on 
+											quality will be published charges must be applicable.</b></p>
+									</div>
+									<div class="">
+										<span class="text-color-primary"><b>About Guidelines</b></span>
+										
+										<p class="lead lead-2 mb-0"><b>International Conference on Algorithms in 
+											Advanced AI (ICAAAI-2023) invites researchers, 
+											 academicians, professionals, practitioners, and 
+											   students to impart and share their knowledge in 
+											  the form of high-quality originals research papers 
+												 proposing novel solutions and case studies 
+												 addressing the current real-life problems.</b></p>
+									</div>
+									<div class="">
+										<span class="text-color-primary"><b>Paper Submission</b></span>
+										
+										<p class="lead lead-2 mb-0"><b>ICAAI-2023 is soliciting the submission of papers with significant research contributions.Submitted papers shold not have been previously published norbe currently under considerations for publication else where. All submissions will be throughly peer-reviewed by experts based on originality,significance and clarity. Only papers presenting novel research results or successfull innovative applications will be considered for publication in the conference proceedings.Kindly ensure that your paper is formatted as springer template(not exceeding 10 pages written in A4 size).The presented papers of this conference will be published in the book series.Algorithms in advanced Artificial Intelligence,indexed by WEB OF SCIENCE,(scopus),Compendex,cnki,google scholar.This paper can be submitted through.<br>
+											Registration Link: <a href="https://forms.gle/4TUPQpYqdp1GMhbD8">Click here to register</a><br>
+												Published by ATLANTIS PRESS International B.V., Van Godewijckstraat 30,3311 GX Dordrecht,The Netherlands.</b></p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+				
+						
+
+				
+				<section id="review" class="border-0 bg-transparent pt-4">
+					<div class="row justify-content">
+						<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+							<h3>Reviews</h3>
+						</div>
+					</div>
+					<div class="center-container">
+						<button class="review-button" onclick="window.open('https://docs.google.com/spreadsheets/d/e/2PACX-1vRoNq9awcsR439nb6E_5WPlYLcZZnkiJW9YMAoHRAVaGMyV-NVCAXnH0DMjD5i_ng/pubhtml', '_blank')">Review</button>
+					</div>
+				</section>
+
+				<section class="gallery">
+					<h2>Photo Gallery</h2>
+					<div class="gallery-container">
+						<div class="gallery-item"><img src="img/gallery/img1.jpg" alt="Image 1"></div>
+						<div class="gallery-item"><img src="img/gallery/img2.jpg" alt="Image 2"></div>
+						<div class="gallery-item"><img src="img/gallery/img4.jpg" alt="Image 3"></div>
+						<div class="gallery-item"><img src="img/gallery/img3.jpg" alt="Image 1"></div>
+						<div class="gallery-item"><img src="img/gallery/img5.jpg" alt="Image 5"></div>
+						<div class="gallery-item"><img src="img/gallery/img6.jpg" alt="Image 6"></div>
+						<div class="gallery-item"><img src="img/gallery/img7.jpg" alt="Image 7"></div>
+						<div class="gallery-item"><img src="img/gallery/img8.jpg" alt="Image 8"></div>
+						<div class="gallery-item"><img src="img/gallery/img9.jpg" alt="Image 9"></div>
+						<div class="gallery-item"><img src="img/gallery/img10.jpg" alt="Image 10"></div>
+						<div class="gallery-item"><img src="img/gallery/img11.jpg" alt="Image 11"></div>
+						<div class="gallery-item"><img src="img/gallery/img12.jpg" alt="Image 12"></div>
+						<div class="gallery-item"><img src="img/gallery/img13.jpg" alt="Image 13"></div>
+						<div class="gallery-item"><img src="img/gallery/img14.jpg" alt="Image 14"></div>
+						<div class="gallery-item"><img src="img/gallery/img15.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img16.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img17.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img18.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img19.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img20.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img21.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img22.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img23.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/img24.jpg" alt="Image 15"></div>
+						
+						
+						<!-- Add more images as needed -->
+					</div>
+				</section>
+
+				
+
+	<section id="book" class="border-0 bg-transparent pt-5">
+        <div class="container py-3">
+            <div class="row mb-3">
+                <div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+                    <h2>Proceedings Book from Taylor and Francis</h2>
+                    
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-9 text-center custom-venue-info">
+                    <div class="row align-items-center m-0 p-0">
+                        <div class="d-none d-lg-flex col-lg-5 p-0 m-0">
+                            <img src="img/book.png" class="img-fluid" alt="Venue Image">
+                        </div>
+                        <div class="col-lg-7 p-lg-0 m-0">
+                            <strong class="text-dark text-5 mb-3 pt-5 pt-lg-0 d-block">Algorithms in Advanced Artificial Intelligence
+								ICAAAI-2023</strong>
+                            <p class="m-0 opacity-8 text-3">Edited By R. N. V. Jagan Mohan, Vasamsetty Chandra Sekhar, V. M. N. S. S. V. K. R. Gupta<br>Copyright 2025<br>Available in Amazon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+    </section>
+
+				
+				<section id="venue" class="border-0 bg-transparent pt-5">
+					<div class="container py-3">
+						<div class="row mb-3">
+							<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<h2>Check Out The Venue Information</h2>
+								<h3>Venue</h3>
+							</div>
+						</div>
+						<div class="row mt-5 justify-content-center">
+							<div class="col-9 text-center custom-venue-info">
+								<div class="row align-items-center m-0 p-0">
+									<div class="d-none d-lg-flex col-lg-5 p-0 m-0">
+										<img src="img/venue.png" class="img-fluid">
+									</div>
+									<div class="col-lg-7 p-lg-0 m-0">
+										<strong class="text-dark text-5 mb-3 pt-5 pt-lg-0 d-block">S.R.K.R Engineering College</strong>
+										<p class="m-0 opacity-8 text-3">CSE Department<br>Bhimavaram<br>Phone : 7981349543<br>Email : algorithmsaai@gmail.com</p>
+										<!-- <a href="#" class="btn btn-quaternary btn-rounded font-weight-bold text-3 mt-4 px-5 py-3">Get Directions</a> -->
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+
+					<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+					<div class="appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="0">
+						<div id="googlemaps" class="google-map m-0" style="height: 400px;">
+							<img src="https://www.google.com/maps/@16.5432° N,81.4964° E,11z?entry=ttu" target="_blank">
+
+						</div>
+					</div>
+
+				</section>
+
+
+			</div>
+
+			
+
+			<footer id="footer" class="bg-quaternary border-0 mt-0">
+				<div class="container my-4">
+					<div class="row gy-4">
+						<div class="col-lg-2 align-self-center mb-4 mb-lg-0">
+							<a href="index.html" class="text-decoration-none">
+								<img
+									src="img/srkr.png"
+									width="256"
+									height="68"
+									class="img-fluid"
+									alt="Footer Logo"
+								/>
+							</a>
+						</div>
+						<div class="col-lg-4">
+							<h4 class="font-weight-bold text-color-light">ICAAAI - Dec 22-24, 2023 | SRKR</h4>
+							<strong
+								class="d-block text-color-primary font-weight-semibold text-3 mt-2 mb-1"
+							>SRKR Engineering College-CSE Department</strong
+							>
+							
+						</div>
+						
+						<!-- Contact Information -->
+						<div class="col-lg-5" id="contact">
+							<h4 class="font-weight-bold text-color-light">Contact Us</h4>
+							<p class="text-color-light text-2">
+								<strong>Email:</strong> <a href="algorithmsaai@gmail.com" class="text-color-light">algorithmsaai@gmail.com</a><br>
+								<strong>Phone:</strong> +91 7981349543<br>
+								<strong>Address:</strong>Dr.R.Jagan Mohan,Convener in ICAAAI-2023<br> Department of Computer Science And Engineering, 
+								S.R.K.R Engineering College, Bhimavaram 534312
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright bg-quaternary">
+					<div class="container ">
+						<div class="row ">
+							<div class="col text-center">
+								<p class="text-color-grey text-3-5">
+									IICRS © 2024. Designed by <a href="http://www.mcr.org.in/" target='_new'>MCR Web
+											Solutions</a>.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+		<!-- Vendor -->
+		<script src="vendor/plugins/js/plugins.min.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+
+		<!-- Revolution Slider Scripts -->
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+
+		<!-- Demo -->
+		<script src="js/demos/demo-event.js"></script>
+
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+
+		<!-- Theme Initialization Files -->
+		<script src="js/js.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAea24UwU5sUreEizrJiCfzcUfsls9NZ_8" ></script> 
+		<script>
+
+			
+			// Map Settings
+
+				// //Find the Latitude and Longitude of your address:
+				// 	- https:www.latlong.net/
+				// 	- http:www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+
+			
+
+			function initializeGoogleMaps() {
+				// Map Markers
+				var mapMarkers = [{
+					address: "srkr,cse department",
+					icon: {
+						image: "",
+						iconsize: [31, 40],
+						iconanchor: [31, 40]
+					}
+				}];
+
+				// Map Initial Location
+				var initLatitude = 16.5431521;
+				var initLongitude = 81.4938113;
+
+				// Map Extended Settings
+				var mapSettings = {
+					controls: {
+						draggable: false,
+						panControl: false,
+						zoomControl: false,
+						mapTypeControl: false,
+						scaleControl: false,
+						streetViewControl: false,
+						overviewMapControl: false
+					},
+					scrollwheel: false,
+					markers: mapMarkers,
+					latitude: initLatitude,
+					longitude: initLongitude,
+					zoom: 14
+				};
+
+				var map = $('#googlemaps').gMap(mapSettings),
+					mapRef = $('#googlemaps').data('gMap.reference');
+
+				// Styles from https://snazzymaps.com/
+				
+				mapRef.mapTypes.set('map_style', styledMap);
+				mapRef.setMapTypeId('map_style');
+			}
+
+			// Initialize Google Maps when element enter on browser view
+			theme.fn.intObs( '.google-map', 'initializeGoogleMaps()', {} );
+
+			// Map text-center At
+			var mapCenterAt = function(options, e) {
+				e.preventDefault();
+				$('#googlemaps').gMap("centerAt", options);
+			}
+
+			
+			// JavaScript to handle button click events
+			function toggleContent(id) {
+            const selectedContent = document.getElementById(id);
+
+            // Hide all content divs except the selected one
+            const allContents = document.querySelectorAll('.content');
+            allContents.forEach(content => {
+                if (content.id !== id) {
+                    content.style.display = 'none';
+                }
+            });
+
+            // Toggle the display of the selected content div
+            if (selectedContent.style.display === 'block') {
+                selectedContent.style.display = 'none';
+            } else {
+                selectedContent.style.display = 'block';
+            }
+        }
+
+		function openLink() {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdCFxys6NoTRvoMuBx4G1GlmMPiIryMs22DElIG5aE_6-Xorg/closedform';
+        }
+    
+
+			
+
+		</script>
+		
+		
+
+	</body>
+</html>
+
